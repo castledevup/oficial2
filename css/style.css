@@ -7791,10 +7791,22 @@ h1, h2, h3, h4, h5, h6 {
   border-top: 10px solid #FFC107;
 }
 
+.subscribe-text {
+    margin-left: 20px;
+}
+.subscribe-text h2 {
+    color: #333;
+    font-size: 44px;
+}
+.subscribe-text p {
+    font-size: 22px;
+    color: #333;
+    opacity: 0.7;
+}
 #fh5co-subscribe {
   padding: 4em 0 3em 0;
   position: relative;
-  background: #4fd2c2;
+  background: #FFC107;
 }
 #fh5co-subscribe .form-control {
   color: #fff;
@@ -8444,12 +8456,11 @@ pre {
 
 #fh5co-footer {
   padding: 10em 0;
-  background: #323a45;
+  background: #333;
   color: #878c93;
-  position: fixed;
   bottom: 0;
-  font-family: 'Open Sans', Arial, sans-serif;
-  font-weight: 300;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
 }
 #fh5co-footer .fh5co-overlay {
   position: absolute;
@@ -8486,10 +8497,8 @@ pre {
   font-size: 12px;
 }
 #fh5co-footer .fh5co-lead {
-  font-size: 13px;
-  font-family: "Montserrat", arial, sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 4px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 27px;
   color: #fff;
   margin-bottom: 20px;
 }
@@ -8506,14 +8515,12 @@ pre {
   margin-bottom: 10px;
 }
 #fh5co-footer .fh5co-footer-logo a {
-  font-family: "Montserrat", arial, sans-serif;
-  font-size: 20px;
-  letter-spacing: 2px;
-  color: #ccc;
-  border: 2px solid #9a9fa5;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 27px;
+  color: #fff;
+  border: none;
   float: left;
-  padding: 7px 10px 7px 12px;
-  text-transform: uppercase;
+  padding: 7px 10px 7px 0px;
 }
 #fh5co-footer .fh5co-footer-logo a:hover, #fh5co-footer .fh5co-footer-logo a:active, #fh5co-footer .fh5co-footer-logo a:focus {
   color: #fff;
